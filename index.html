@@ -8,28 +8,26 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="container">
       <header>
-        <h2>DESTINATION</h2>
-        <div class="toggle"></div>
+        <h2 id="title" class="title">DESTINATION</h2>
+        <div class="toggle" id="toggle"></div>
       </header>
 
-      <video src="night.mp4" muted loop autoplay></video>
+      <video src="./Pexels Videos 1739010.mp4" muted loop autoplay></video>
       <div class="overlay"></div>
 
-      <div class="text">
-        <h2>Where Are You Going?</h2>
+      <div class="text" id="text">
+        <h2>Are You Going?</h2>
         <h3>We Can Help</h3>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam
-          corporis soluta culpa officia at! Magnam, cupiditate eligendi. Vel,
-          explicabo voluptas!
+          All our dreams can come true, if we have the courage to pursue them.
         </p>
-        <a href="#">Let's Go</a>
+        <div class="btn-container"><a id="button" href="#">Let's Go</a></div>
       </div>
-      <ul>
-        <li><img id="socMed" src="./PngItem_103673.png" alt="" /></li>
-      </ul>
+      <div class="footer">
+        <a><img id="socMed" src="./PngItem_103673.png" alt="" /></a>
+      </div>
     </div>
     <div class="menu">
       <ul>
@@ -40,5 +38,7 @@
         <li><a href="#">Contact</a></li>
       </ul>
     </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>
